@@ -264,9 +264,6 @@ def main():
             else:
                 pass
 
-            with open('simulation_backup.json', 'w') as json_file:
-                json.dump(simulation_steps, json_file)
-
             print("\n" * 30)
             export = input("Export simulation as JSON?(y/n) \n\n")
             if export == "y":
